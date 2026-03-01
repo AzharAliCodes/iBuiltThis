@@ -12,6 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
   title: "iBuiltThis",
   description: "iBuiltThis is a platform for building and sharing your own projects with the world.",

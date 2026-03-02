@@ -1,4 +1,4 @@
-// import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
 import {
   CompassIcon,
   HomeIcon,
@@ -54,7 +54,7 @@ export default function Header() {
                 </div>
               }
             >
-              {/* <SignedOut>
+              <SignedOut>
                 <SignInButton />
                 <SignUpButton>
                   <Button>Sign Up</Button>
@@ -68,8 +68,8 @@ export default function Header() {
                   </Link>
                 </Button>
 
-                <CustomUserButton />
-              </SignedIn> */}
+                {/* <CustomUserButton /> */}
+              </SignedIn>
             </Suspense>
           </div>
         </div>

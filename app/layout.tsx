@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import  Header  from "@/components/landing-page/header";
 import Footer from "@/components/landing-page/footer";
+import {ClerkProvider} from "@clerk/nextjs";
 import "./globals.css";
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -18,6 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={`${outfit.className} antialiased`}
@@ -27,6 +29,7 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
+    </ClerkProvider>
   );
 }
 

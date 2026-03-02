@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import  Header  from "@/components/landing-page/header";
+import Footer from "@/components/landing-page/footer";
 import "./globals.css";
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -23,11 +24,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <footer className="bg-gray-100 text-center py-4 mt-8">
-          <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} iBuiltThis. All rights reserved.
-          </p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

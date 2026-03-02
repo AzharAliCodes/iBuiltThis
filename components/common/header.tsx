@@ -9,7 +9,7 @@ import {
 import Link from "next/link";
 import { Suspense } from "react";
 import { Button } from "../ui/button";
-// import CustomUserButton from "./custom-user-button";
+import CustomUserButton from "./custom-user-button";
 
 const Logo = () => {
   return (
@@ -68,7 +68,7 @@ export default function Header() {
                   </Link>
                 </Button>
 
-                {/* <CustomUserButton /> */}
+                <CustomUserButton />
               </SignedIn>
             </Suspense>
           </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import  Header  from "@/components/landing-page/header";
 import "./globals.css";
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -20,7 +21,7 @@ export default function RootLayout({
       <body
         className={`${outfit.className} antialiased`}
       >
-        <header className="bg-white shadow-sm">iBuiltThis</header>
+        <Header />
         {children}
         <footer className="bg-gray-100 text-center py-4 mt-8">
           <p className="text-sm text-gray-500">

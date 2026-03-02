@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import  Header  from "@/components/landing-page/header";
-import Footer from "@/components/landing-page/footer";
+import  Header  from "@/components/common/header";
+import Footer from "@/components/common/footer";
 import {ClerkProvider} from "@clerk/nextjs";
 import "./globals.css";
 

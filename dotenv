@@ -1,0 +1,3 @@
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_AYWNjdXJhdGUtbGVtdXItNzUuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_AH46I6jmiqy1BRM0gBWcf164NtzJWDZvNQKnC72m42t
+DATABASE_URL=postgresql://neondb_owner:npg_AE2VyhsFOGcq1@ep-dark-salad-ai9fqxsp-pooler.c-4.us-east-1.aws.neon.tech/IBuiltThis?sslmode=require&channel_binding=require

@@ -4,7 +4,7 @@ import { desc, eq } from "drizzle-orm";
 import { connection } from "next/server";
 
 export async function getFeaturedProducts() {
-  "use cache";
+  // "use cache";
   const productsData = await db
     .select()
     .from(products)
@@ -25,7 +25,7 @@ export async function getAllApprovedProducts() {
 }
 
 export async function getAllProducts() {
-  "use cache";
+  // "use cache";
   const productsData = await db
     .select()
     .from(products)
